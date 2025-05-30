@@ -1,7 +1,7 @@
-# ToyProject-py-
+# Python Coding Test-
 
 ## 프로젝트 개요
-`ToyProject-py-`는 Python을 활용하여 다양한 **코딩 테스트 문제**를 연습하고 해결하는 것을 목표로 하는 프로젝트입니다. 이 레포지토리는 지속적으로 업데이트되며, 알고리즘과 자료구조의 다양한 주제를 다룹니다. 각 파일은 특정 문제를 해결하기 위한 코드로 구성되어 있으며, 문제 해결 능력을 향상시키는 데 중점을 둡니다.
+`Python Coding Test-`는 Python을 활용하여 다양한 **코딩 테스트 문제**를 연습하고 해결하는 것을 목표로 하는 프로젝트입니다. 이 레포지토리는 지속적으로 업데이트되며, 알고리즘과 자료구조의 다양한 주제를 다룹니다. 각 파일은 특정 문제를 해결하기 위한 코드로 구성되어 있으며, 문제 해결 능력을 향상시키는 데 중점을 둡니다.
 
 ---
 
@@ -16,4 +16,4 @@
 ## 사용 방법
 1. 이 레포지토리를 클론합니다:
    ```bash
-   git clone https://github.com/JELKOV/ToyProject-py-.git
+   git clone https://github.com/JELKOV/PythonCodingTest.git
