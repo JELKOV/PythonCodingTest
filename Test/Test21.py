@@ -46,16 +46,16 @@ def solution(board, h, w):
 
         # [4-2] 보드 범위를 벗어나지 않는지 확인 (인덱스 오류 방지)
         if 0 <= h_check < n and 0 <= w_check < len(board[0]):
-            print(f"   - 유효 좌표 ✅")
+            print(f"   - 유효 좌표")
             print(f"   - 이웃 색상: {board[h_check][w_check]}")
             # [4-3] 기준 칸(board[h][w])과 인접 칸의 색상이 같으면 count 증가
             if board[h][w] == board[h_check][w_check]:
-                print(f"   - 색 일치 🎯 → count +1")
+                print(f"   - 색 일치 → count +1")
                 count += 1
             else:
-                print(f"   - 색 다름 ❌")
+                print(f"   - 색 다름")
         else:
-            print(f"   - 유효하지 않은 좌표 ❌")
+            print(f"   - 유효하지 않은 좌표")
 
     print(f"\n최종 count: {count}")
     # [5] 같은 색깔로 칠해진 인접 칸의 총 개수 반환
